@@ -7,10 +7,10 @@
 // Uso const para los datos que NO van a cambiar durante el programa.
 const nombre = "Juan Holguín";
 const programa = "Análisis y Desarrollo de Software (ADSO)";
-const ficha = "0000000"; // TODO: cambia este valor por tu número de ficha
+const ficha = "3534466";
 
 // Uso let para los datos que SÍ pueden cambiar.
-let ciudad = "Tu ciudad"; // TODO: escribe tu ciudad
+let ciudad = "Medellín";
 let frase = "Cada error es una pista para mejorar."; // TODO: escribe la frase que te represente
 
 // ---------- 2. TARJETA EN CONSOLA ----------
