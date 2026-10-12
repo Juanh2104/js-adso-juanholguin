@@ -1,10 +1,4 @@
-// =====================================================
-// Sesión 02 - Reto: Calculadora de compra con IVA
-// Autor: Juan Holguín
-// =====================================================
 
-// ---------- 1. CONSTANTES ----------
-// El IVA no cambia, por eso se guarda en una const (19 % = 0.19).
 const IVA = 0.19;
 
 // Función para mostrar un número como pesos colombianos.
