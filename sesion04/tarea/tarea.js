@@ -30,7 +30,6 @@ const NOTA_MINIMA = 0;
 const NOTA_MAXIMA = 5;
 
 function estadisticasDelGrupo() {
-    // ---------- 2.1 Cuántas notas ----------
     // do...while: el bloque se ejecuta AL MENOS una vez y se repite
     // mientras la condición del while sea verdadera (dato inválido).
     let textoCantidad;
@@ -51,7 +50,6 @@ function estadisticasDelGrupo() {
         }
     } while (textoCantidad.trim() === "" || !Number.isInteger(cantidad) || cantidad <= 0);
 
-    // ---------- 2.2 Pedir las notas una por una ----------
     let suma = 0;
     let mayor = -Infinity; // cualquier nota real será mayor que esto
     let menor = Infinity;  // cualquier nota real será menor que esto
