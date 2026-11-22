@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de contraseña</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Crear contraseña</h1>
+
+        <label for="password">Contraseña nueva:</label>
+        <input type="password" id="password" placeholder="Escribe tu contraseña">
+
+        <h3>Requisitos de seguridad:</h3>
+
+        <ul>
+            <li id="longitud">❌ Mínimo 8 caracteres</li>
+            <li id="mayuscula">❌ Una letra mayúscula</li>
+            <li id="minuscula">❌ Una letra minúscula</li>
+            <li id="numero">❌ Un número</li>
+            <li id="simbolo">❌ Un símbolo</li>
+        </ul>
+
+        <h3>Seguridad de la contraseña:</h3>
+        <p id="nivel">Débil</p>
+
+        <label for="confirmacion">Confirmar contraseña:</label>
+        <input type="password" id="confirmacion" placeholder="Repite tu contraseña">
+
+        <p id="mensaje"></p>
+
+        <button id="guardar" disabled>Guardar</button>
+    </div>
+
+    <script src="tarea.js"></script>
+</body>
+</html>

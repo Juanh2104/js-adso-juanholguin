@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscripción</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Formulario de inscripción</h1>
+
+        <form id="formulario" novalidate>
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre">
+            <small id="error-nombre"></small>
+
+            <label for="documento">Documento:</label>
+            <input type="text" id="documento">
+            <small id="error-documento"></small>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo">
+            <small id="error-correo"></small>
+
+            <label for="celular">Celular:</label>
+            <input type="text" id="celular">
+            <small id="error-celular"></small>
+
+            <label for="curso">Curso:</label>
+            <select id="curso">
+                <option value="">Seleccione un curso</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="HTML y CSS">HTML y CSS</option>
+            </select>
+            <small id="error-curso"></small>
+
+            <label for="jornada">Jornada:</label>
+            <select id="jornada">
+                <option value="">Seleccione una jornada</option>
+                <option value="Mañana">Mañana</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noche">Noche</option>
+            </select>
+            <small id="error-jornada"></small>
+
+            <div class="autorizacion">
+                <input type="checkbox" id="autorizacion">
+                <label for="autorizacion">
+                    Autorizo el tratamiento de mis datos personales
+                </label>
+            </div>
+            <small id="error-autorizacion"></small>
+
+            <button type="submit">Enviar inscripción</button>
+
+        </form>
+
+        <div id="resumen"></div>
+    </div>
+
+    <script src="reto.js"></script>
+</body>
+</html>
