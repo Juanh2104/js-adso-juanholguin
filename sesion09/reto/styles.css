@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.contenedor {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: white;
+}
+
+#tema {
+    display: block;
+    margin: 15px auto;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.texto-tarea {
+    cursor: pointer;
+}
+
+.hecha {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.eliminar {
+    background-color: red;
+}
+
+#contador {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* MODO OSCURO */
+
+body.oscuro {
+    background-color: #222;
+}
+
+body.oscuro .contenedor {
+    background-color: #333;
+    color: white;
+}
+
+body.oscuro h1 {
+    color: white;
+}
+
+body.oscuro li {
+    background-color: #555;
+    color: white;
+}
+
+body.oscuro input {
+    background-color: #444;
+    color: white;
+    border-color: #777;
+}
